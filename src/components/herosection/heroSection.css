@@ -1,0 +1,62 @@
+.hero-section-wrapper {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.hero-section {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.hero-claim-lable {
+  background-color: var(--bg-grey);
+  width: 100%;
+  position: absolute;
+  height: 7.2rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.claim-arrow {
+  height: 1.1rem;
+  margin: 7px 0px 0px 8px;
+}
+.claim-anchor {
+  color: var(--link-blue);
+  margin-left: 1.7rem;
+}
+.hero-heading {
+  font-size: 10.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-subheading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 3.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .hero-claim-lable {
+    height: 5.5rem;
+    font-size: 1.3rem;
+  }
+  .claim-ancor {
+    margin-left: 0.5rem;
+  }
+  .hero-heading {
+    font-size: 5.5rem;
+    text-align: left;
+  }
+  .hero-subheading {
+    font-size: 2.5rem;
+  }
+}
