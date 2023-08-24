@@ -25,4 +25,13 @@
   .max-width {
     max-width: 90%;
   }
+  .non-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .only-mobile {
+    display: none !important;
+  }
 }
