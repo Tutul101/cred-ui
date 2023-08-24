@@ -1,5 +1,6 @@
 @import "./common/styles/variable.css";
 @import "./common/styles/commonClasses.css";
+@import "./common//styles//animations.css";
 
 :root {
   font-size: 62.5%;
