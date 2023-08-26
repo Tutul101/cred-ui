@@ -1,7 +1,7 @@
-import React from "react";
-import HeroSection from "../../components/herosection";
 import Header from "../../components/common/header";
+import HeroSection from "../../components/herosection";
 import ProductShowCase from "../../components/productShowcase";
+import FeelSpecial from "../../components/feelSpecial";
 
 const HomePage = () => {
   return (
@@ -9,6 +9,7 @@ const HomePage = () => {
       <Header />
       <HeroSection />
       <ProductShowCase />
+      <FeelSpecial />
     </>
   );
 };
