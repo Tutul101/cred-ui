@@ -5,6 +5,7 @@ import FeelSpecial from "../../components/feelSpecial";
 import CredExperiance from "../../components/credExperience";
 import CredSecurity from "../../components/credSecurity";
 import BrandsLove from "../../components/brandsLove";
+import WindowPeak from "../../components/windowPeak";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <FeelSpecial />
       <BrandsLove />
       <CredExperiance />
+      <WindowPeak />
       <CredSecurity />
     </>
   );
