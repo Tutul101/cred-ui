@@ -1,0 +1,59 @@
+.cred-story {
+  min-height: 100vh;
+  background-color: rgb(2, 119, 87);
+  background-size: cover;
+  background-position: right bottom;
+  position: relative;
+}
+
+.story-wrapper {
+  align-items: flex-end;
+}
+
+.cred-story-heading-wrapper {
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cred-story-heading {
+  font-size: 6rem;
+  line-height: 60px;
+  font-weight: 700;
+  max-width: 80%;
+}
+
+.cred-story-detail {
+  width: 50%;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.cred-story-para {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+@media all and (max-width: 767px) {
+  .cred-story-heading-wrapper {
+    width: 100%;
+  }
+
+  .cred-story-heading {
+    max-width: 100%;
+    font-size: 5.5rem;
+    padding-top: 80px;
+  }
+  .story-wrapper {
+    flex-direction: column;
+    padding: 7rem 0;
+  }
+  .cred-story-detail {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .cred-story-para {
+    font-size: 1.5rem;
+  }
+}

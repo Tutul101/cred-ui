@@ -7,6 +7,7 @@ import CredSecurity from "../../components/credSecurity";
 import BrandsLove from "../../components/brandsLove";
 import WindowPeak from "../../components/windowPeak";
 import MobileScroll from "../../components/mobileScroll";
+import CredStory from "../../components/credStory";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <MobileScroll />
       <WindowPeak />
       <CredSecurity />
+      <CredStory />
     </>
   );
 };
