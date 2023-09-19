@@ -6,6 +6,7 @@ import CredExperiance from "../../components/credExperience";
 import CredSecurity from "../../components/credSecurity";
 import BrandsLove from "../../components/brandsLove";
 import WindowPeak from "../../components/windowPeak";
+import MobileScroll from "../../components/mobileScroll";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <FeelSpecial />
       <BrandsLove />
       <CredExperiance />
+      <MobileScroll />
       <WindowPeak />
       <CredSecurity />
     </>
