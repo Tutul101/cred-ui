@@ -8,6 +8,7 @@ import BrandsLove from "../../components/brandsLove";
 import WindowPeak from "../../components/windowPeak";
 import MobileScroll from "../../components/mobileScroll";
 import CredStory from "../../components/credStory";
+import AppRating from "../../components/app-rating";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       <WindowPeak />
       <CredSecurity />
       <CredStory />
+      <AppRating />
     </>
   );
 };
